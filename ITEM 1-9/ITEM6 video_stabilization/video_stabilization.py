@@ -39,7 +39,7 @@ def fixBorder(frame):
 SMOOTHING_RADIUS = 50
 
 # Read input video
-cap = cv2.VideoCapture('video/detect.mp4')
+cap = cv2.VideoCapture('/home/pi/Videos/Babes - Stella Cox - My Secret Garden.mp4')
 
 # Get frame count
 n_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
